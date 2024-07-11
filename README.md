@@ -15,11 +15,17 @@
 40个州（one-hot编码形式）+第一天的features+第一天label+第二天features+第二天label+第三天的features+第三天的label
 
 第0列是id
+
 第1-40列是40个州的one-hot编码
+
 41-44是COVID-like illness
+
 45-52是Behavior Indicators
+
 53-58是Mental Health Indicators
+
 59是最后检测结果，阳不阳
+
 后续是第2天-第3天的特征数据，都写成列
 
 #### 课设主要实现的内容
